@@ -77,15 +77,16 @@
     
     - 초기 데이터
     
-    ![Untitled]![Untitled](https://github.com/seongcheollee/mbti-classification/assets/59824783/02b8cb91-26e1-4621-b378-5338d9440665)
+    ![Untitled](https://github.com/seongcheollee/mbti-classification/assets/59824783/02b8cb91-26e1-4621-b378-5338d9440665)
     
     - 데이터 상세정보
     
-    ![Untitled](%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%205515650a9ccd4796a1879e5a5baf0e9e/Untitled%201.png)
-    
+![Untitled 1](https://github.com/seongcheollee/mbti-classification/assets/59824783/883acd9a-632b-4c1d-8cde-0cd74b3c1b95)
+
     - 초기 데이터 시각화
     
-    ![Untitled](%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%205515650a9ccd4796a1879e5a5baf0e9e/Untitled%202.png)
+ ![Untitled 2](https://github.com/seongcheollee/mbti-classification/assets/59824783/6dd954f5-7d4b-48df-8505-94bcdc10ff46)
+
     
     <aside>
     ⚠️ 문제점 : 각 mbti 마다 데이터의 수의 불균형
@@ -95,10 +96,11 @@
     </aside>
     
     - MBTI 구분자 추가
-    
-    ![Untitled](%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%205515650a9ccd4796a1879e5a5baf0e9e/Untitled%203.png)
-    
-    ![Untitled](%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%205515650a9ccd4796a1879e5a5baf0e9e/Untitled%204.png)
+
+    ![Untitled 3](https://github.com/seongcheollee/mbti-classification/assets/59824783/ba7ad596-8f84-4464-824d-ad4e157fb61a)
+
+![Untitled 4](https://github.com/seongcheollee/mbti-classification/assets/59824783/078a95b5-33e3-42be-8d78-7e067cb4e01f)
+
     
     ! 여전히 불균형 문제가 있으나 비율의 폭이 감소하여 적은 데이터에 대한 학습 데이터 증가
     
@@ -182,7 +184,8 @@
     
     가장 간단한 형태의 임베딩은 단어의 빈도를 기준으로 벡터로 변환하는 것이다. 
     
-    ![Untitled](%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%205515650a9ccd4796a1879e5a5baf0e9e/Untitled%205.png)
+![Untitled 5](https://github.com/seongcheollee/mbti-classification/assets/59824783/cf00607a-b812-4025-a035-ec782a8f6095)
+
     
     즉 위 표에서 운수 좋은 날이라는 문서의 임베딩은 [2,1,1]이다.
     막걸리라는 단어의 임베딩은 [0,1,0,0]이다. 
@@ -223,8 +226,9 @@
     - **BERT 구조**
     
     ![“BERT의 input representation”
-    ! 그림과 같이 세 가지 임베딩 값의 합으로 구성되는 것이 특징](%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%205515650a9ccd4796a1879e5a5baf0e9e/Untitled%206.png)
-    
+    ! 그림과 같이 세 가지 임베딩 값의 합으로 구성되는 것이 특징]
+    ![Untitled 6](https://github.com/seongcheollee/mbti-classification/assets/59824783/f631dbc8-ce67-4cf1-bc00-cf7711937494)
+
     “BERT의 input representation”
     ! 그림과 같이 세 가지 임베딩 값의 합으로 구성되는 것이 특징
     
