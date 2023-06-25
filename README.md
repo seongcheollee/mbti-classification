@@ -77,7 +77,7 @@
     
     - 초기 데이터
     
-    ![Untitled](%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%205515650a9ccd4796a1879e5a5baf0e9e/Untitled.png)
+    ![Untitled]![Untitled](https://github.com/seongcheollee/mbti-classification/assets/59824783/02b8cb91-26e1-4621-b378-5338d9440665)
     
     - 데이터 상세정보
     
