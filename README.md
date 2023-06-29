@@ -423,3 +423,8 @@ class Dataset(torch.utils.data.Dataset):
     13. ~ 22코드설명
     
      23.  ~27모델 분석 & 활용
+
+
+
+## 후기
+    
